@@ -15,3 +15,9 @@ Nginx config files for routing traffic between multiple smart speaker skill hand
 ```sh
 sudo systemctl restart openresty
 ```
+
+## 4. Check incoming requests log
+
+```sh
+sudo tail -f /usr/local/openresty/nginx/logs/access.log
+```
